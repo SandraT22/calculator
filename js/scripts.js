@@ -22,3 +22,11 @@ function multiply(number1, number2) {
   const numMultiply2 = parseInt(prompt("Enter another number:"));
   const multiplyResult = multiply(numMultiply1, numMultiply2);
   alert(multiplyResult);
+function divide(number1, number2) {
+  return number1 / number2;
+}
+
+  const numDivide1 = parseInt(prompt("Enter a number:"));
+  const numDivide2 = parseInt(prompt("Enter another number:"));
+  const divideResult = divide(numDivide1, numDivide2);
+  alert(divideResult);
